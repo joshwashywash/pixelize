@@ -2,6 +2,7 @@ import { readdir } from 'fs/promises';
 import { extname, join } from 'path';
 
 import inquirer from 'inquirer';
+import { ensureDir } from 'fs-extra';
 import chalk from 'chalk';
 import sharp from 'sharp';
 
@@ -79,6 +80,7 @@ if (choices.length > 0) {
     )} ~*~*`
   );
   try {
+    await ensureDir(OUTPUT_DIRECTORY);
     await sharp(filePath)
       .png({ colors: parseInt(maxColors) })
       .toFile(outputFilePath);
