@@ -46,7 +46,7 @@ A: The application supports the same image formats that [sharp](https://sharp.pi
 
 A: All it does is use sharp's [png](https://sharp.pixelplumbing.com/api-output#png) and [toFile](https://sharp.pixelplumbing.com/api-output#tofile) functions to get the job done.
 
-# **Q: Why did you make this?**
+**Q: Why did you make this?**
 
 A: So that me and my mom can make [perler](https://www.perler.com/) bead patterns out of any image. And eventually, if the images are small enough, you might be able share them using QR codes or some other form of representational data.
 
