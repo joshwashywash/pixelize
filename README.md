@@ -13,7 +13,7 @@ Once you have [node](https://nodejs.org/en/) installed and the repo cloned on yo
 1. Install dependencies.
 
 ```console
-npm run install
+npm install
 ```
 
 3. Build it!
