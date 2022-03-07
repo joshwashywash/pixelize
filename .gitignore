@@ -1,0 +1,8 @@
+dist
+<<<<<<< HEAD
+/*.txt
+pixelated
+=======
+node_modules
+txts
+>>>>>>> d459c99e762d035906d3be15a5b1df5f56212ad7
