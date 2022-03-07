@@ -16,15 +16,15 @@ Once you have [node](https://nodejs.org/en/) installed and the repo cloned on yo
 npm run install
 ```
 
-2. Drop any images you want to pixelize into the `images` directory.
-
 3. Build it!
 
 ```console
 npm run build
 ```
 
-4. Run it!
+2. Before running the app, drop any images you want to pixelize into the `images` directory.
+
+3. Run it!
 
 ```console
 npm run start
