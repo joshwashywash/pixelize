@@ -13,13 +13,13 @@ Once you have [node](https://nodejs.org/en/) installed and the repo cloned on yo
 1. Install dependencies.
 
 ```console
-npm install
+$ npm install
 ```
 
 2. Build it!
 
 ```console
-npm run build
+$ npm run build
 ```
 
 3. Before running the app, drop any images you want to pixelize into the `images` directory.
@@ -27,7 +27,7 @@ npm run build
 4. Run it!
 
 ```console
-npm run start
+$ npm run start
 ```
 
 The program will guide you from there. Unless you need to rebuild the project, you can just use `npm run start` from now on.
