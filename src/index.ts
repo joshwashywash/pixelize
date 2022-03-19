@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { readdir } from 'fs/promises';
 import { extname, join } from 'path';
 

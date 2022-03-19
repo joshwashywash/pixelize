@@ -4,7 +4,7 @@ Pixelize images from the command line.
 
 ## Disclaimer
 
-This tool is not intended to be a production-level application, therefore it is missing parts that you would normally see in those cases.
+This tool is not intended to be a production-level application, It is missing parts that you would normally see in those cases.
 
 ## Quick Start
 
@@ -58,5 +58,4 @@ A: :shrug:
 
 - Add more docs.
 - Make QR codes or some other form of data representation for small enough images.
-- Bundle so that you don't have to install node modules, etc.
-- Turn it into a web app one day.
+- Turn it into a web app one day or cli tool.
