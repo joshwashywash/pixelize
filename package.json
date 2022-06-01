@@ -41,7 +41,7 @@
     "chalk": "^5.0.0",
     "fs-extra": "^10.0.1",
     "inquirer": "^8.2.0",
-    "sharp": "^0.30.0"
+    "sharp": "^0.30.5"
   },
   "lint-staged": {
     "*.ts": [
