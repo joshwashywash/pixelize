@@ -12,22 +12,22 @@ Once you have [node](https://nodejs.org/en/) installed and the repo cloned on yo
 
 1. Install dependencies.
 
-```console
-$ npm install
+```
+npm install
 ```
 
 2. Build it!
 
-```console
-$ npm run build
+```
+npm run build
 ```
 
 3. Before running the app, drop any images you want to pixelize into the `images` directory.
 
 4. Run it!
 
-```console
-$ npm run start
+```
+npm run start
 ```
 
 The program will guide you from there. Unless you need to rebuild the project, you can just use `npm run start` from now on.
@@ -36,7 +36,7 @@ The program will guide you from there. Unless you need to rebuild the project, y
 
 **Q: Why are all the pixelized images put into the `pixelated` directory?**
 
-A: They can be easily gitignored this way.
+A: So they can be easily gitignored.
 
 **Q: Which image formats are supported?**
 
@@ -44,7 +44,7 @@ A: The application supports the same image formats that [sharp](https://sharp.pi
 
 **Q: How does it work?**
 
-A: All it does is use sharp's [png](https://sharp.pixelplumbing.com/api-output#png) and [toFile](https://sharp.pixelplumbing.com/api-output#tofile) functions to get the job done.
+A: All it does is make use sharp's [png](https://sharp.pixelplumbing.com/api-output#png) and [toFile](https://sharp.pixelplumbing.com/api-output#tofile) functions to get the job done.
 
 **Q: Why did you make this?**
 

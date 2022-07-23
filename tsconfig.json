@@ -2,8 +2,9 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Node",
-    "target": "ESNext",
-    "outDir": "dist"
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "target": "ESNext"
   },
   "extends": "@tsconfig/node16/tsconfig.json",
   "include": ["src/**/*.ts"]
